@@ -25,36 +25,36 @@
         <p></p>
         <h2>Hosting</h2>
         <p>Everyone is welcome to host a session to talk about a recently published paper or a topic you are interested.</p>
-        <p>To book a session slot, please send an email to Steve (ghlp@cin.ufpe.br). Slot successfully booked will be posted here.</p>
+        <p>To book a session slot, please send an email to Gustavo (ghlp@cin.ufpe.br). Slot successfully booked will be posted here.</p>
 	<p></p>
   	<p>Previous PL seminars info. <a href="http://cs.binghamton.edu/~hzhu1/seminar13.html">here</a></p>
       </header>
       <section>
-        <h1>Timeline.</h1>
+        <h1>Timeline</h1>
 
 <h3>Structural Recursion for Querying Ordered Graphs</h3>
 <p><b>Presenter:</b> Philip Dexter</p> 
 <p><b>Date:</b> Apr. 1st</p>
 <p><b>Abstract:</b> Structural recursion, in the form of, for example, folds on lists and catamorphisms on algebraic data structures including trees, plays an important role in functional programming, by providing a systematic way for constructing and manipulating functional pro- grams. It is, however, a challenge to define structural recursions for graph data structures, the most ubiquitous sort of data in comput- ing. This is because unlike lists and trees, graphs are essentially not inductive and cannot be formalized as an initial algebra in general. In this paper, we borrow from the database community the idea of structural recursion on how to restrict recursions on infinite un- ordered regular trees so that they preserve the finiteness property and become terminating, which are desirable properties for query languages. We propose a new graph transformation language called λFG for transforming and querying ordered graphs, based on the well-defined bisimulation relation on ordered graphs with special ε-edges. The language λFG is a higher order graph transformation language that extends the simply typed lambda calculus with graph constructors and more powerful structural recursions, which is ex- tended for transformations on the sibling dimension. It not only gives a general framework for manipulating graphs and reasoning about them, but also provides a solution to the open problem of how to define a structural recursion on ordered graphs, with the help of the bisimilarity for ordered graphs with ε-edges..</p>
-<p>Download: <a href="http://www.biglab.org/pdf/icfp13.pdf">paper</a> | slides</p>
+<p><b>Download:</b> <a href="http://www.biglab.org/pdf/icfp13.pdf">paper</a> | slides</p>
 
 <h3>Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask</h3>
 <p><b>Presenter:</b> Gustavo Pinto</p> 
 <p><b>Date:</b> Feb. 25th</p>
 <p><b>Abstract:</b> This paper presents the most exhaustive study of synchronization to date. We span multiple layers, from hardware cache-coherence protocols up to high-level concurrent software. We do so on different types of architectures, from single-socket –- uniform and non-uniform –- to multi-socket –- directory and broadcast-based -– many-cores. We draw a set of observations that, roughly speaking, imply that scalability of synchronization is mainly a property of the hardware.</p>
-<p>Download: <a href="http://sigops.org/sosp/sosp13/papers/p33-david.pdf">paper</a> | slides</p>
+<p><b>Download:</b> <a href="http://sigops.org/sosp/sosp13/papers/p33-david.pdf">paper</a> | slides</p>
 
 <h3>Work-Stealing Without The Baggage</h3>
 <p><b>Presenter:</b> Haris Ribic</p> 
 <p><b>Date:</b> Feb. 11th</p>
 <p><b>Abstract:</b> Work-stealing is a promising approach for effectively ex- ploiting software parallelism on parallel hardware. A programmer who uses work-stealing explicitly identifies poten- tial parallelism and the runtime then schedules work, keep- ing otherwise idle hardware busy while relieving overloaded hardware of its burden. Prior work has demonstrated that work-stealing is very effective in practice. However, workstealing comes with a substantial overhead: as much as 2× to 12× slowdown over orthodox sequential code. In this paper we identify the key sources of overhead in work-stealing schedulers and present two significant re- finements to their implementation. We evaluate our work- stealing designs using a range of benchmarks, four dif- ferent work-stealing implementations, including the popu- lar fork-join framework, and a range of architectures. On these benchmarks, compared to orthodox sequential Java, our fastest design has an overhead of just 15%. By contrast, fork-join has a 2.3× overhead and the previous implemen- tation of the system we use has an overhead of 4.1×. These results and our insight into the sources of overhead for work- stealing implementations give further hope to an already promising technique for exploiting increasingly available hardware parallelism.</p>
-<p>Download: <a href="http://users.cecs.anu.edu.au/~steveb/downloads/pdf/ws-oopsla-2012.pdf">paper</a> | <a href="http://cs.binghamton.edu/~hzhu1/seminarRes/asplosPPT01.pptx">slides</a></p>
+<p><b>Download:</b> <a href="http://users.cecs.anu.edu.au/~steveb/downloads/pdf/ws-oopsla-2012.pdf">paper</a> | <a href="http://cs.binghamton.edu/~hzhu1/seminarRes/asplosPPT01.pptx">slides</a></p>
 
 <h3>Static Scheduling of Synchronous Data Flow Programs for Digital Signal Processing</h3>
 <p><b>Presenter:</b> Thomas Bartenstein<br/>
 <p><b>Date:</b> Jan. 28th</p>
 <p><b>Abstract:</b> Large grain data flow (LGDF) programming is natural and convenient for describing digital signal processing (DSP) systems, but its runtime overhead is costly in real time or cost-sensitive applications. In some situations, designers are not willing to squander computing resources for the sake of programmer convenience. This is particularly true when the target machine is a programmable DSP chip. However, the runtime overhead inherent in most LGDF implementations is not required for most signal processing systems because such systems are mostly synchronous (in the DSP sense). Synchronous data flow (SDF) differs from traditional data flow in that the amount of data produced and consumed by a data flow node is specified a priori for each input and output. This is equivalent to specifying the relative sample rates in signal processing system. This means that the scheduling of SDF nodes need not be done at runtime, but can be done at compile time (statically), so the runtime overhead evaporates. The sample rates can all be different, which is not true of most current data-driven digital signal processing programming methodologies. Synchronous data flow is closely related to computation graphs, a special case of Petri nets. This self-contained paper develops the theory necessary to statically schedule SDF programs on single or multiple processors. A class of static (compile time) scheduling algorithms is proven valid, and specific algorithms are given for scheduling SDF systems onto single or multiple processors.</p>
-<p>Download: <a href="http://www.eecs.ucf.edu/~mingjie/ECM6308/papers/%20Static%20Scheduling%20of%20Synchronous%20Data%20Flow%20Programs%20for%20Digital%20Signal%20Processing.pdf">paper</a> | <a href="http://cs.binghamton.edu/~hzhu1/seminarRes/StaticSDFScheduling.pptx">slides</a></p>
+<p><b>Download:</b> <a href="http://www.eecs.ucf.edu/~mingjie/ECM6308/papers/%20Static%20Scheduling%20of%20Synchronous%20Data%20Flow%20Programs%20for%20Digital%20Signal%20Processing.pdf">paper</a> | <a href="http://cs.binghamton.edu/~hzhu1/seminarRes/StaticSDFScheduling.pptx">slides</a></p>
 
 
 
